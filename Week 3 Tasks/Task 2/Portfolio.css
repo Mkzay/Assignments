@@ -1,0 +1,224 @@
+body {
+    margin: auto;
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*navigation*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 0.4em;
+    position: fixed;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.menu a.active {
+    color: orange;
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .70rem;
+    right: 3rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*First Page*/
+.paragraph {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph h1 {
+    font-size: 50px;
+}
+
+.scale-1 {
+    font-size: 24px;
+}
+
+.scale-2 {
+    font-size: 20px;
+    width: 70%;
+    color: grey;
+}
+
+.paragraph a {
+    color: orange;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.box-1 {
+    padding: 7em 0 7em 7em;
+}
+
+.box-2 {
+    padding: 2em 6em 0 0;
+}
+
+/*About.html*/
+.paragraph li {
+    font-size: 20px;
+    color: grey;
+    list-style-type: none;
+    margin-left: -34px;
+}
+
+.box-1-1 {
+    padding: 4em 0 7em 7em;
+}
+
+/*Work*/
+.paragraph-2 {
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+}
+
+.paragraph-2 h1 {
+    font-size: 54px;
+}
+
+.paragraph-2 li {
+    font-size: 24px;
+    color: grey;
+    list-style-type: none;
+    margin-left: -34px;
+}
+
+.paragraph-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    background-color: rgb(27, 27, 27);
+}
+
+.head h1 {
+    font-size: 60px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.box-3 {
+    padding: 2em;
+}
+
+.box-3 h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.box-3 p {
+    font-size: 20px;
+    color: grey;
+    width: 70%;
+}
+
+.box-3 a {
+    text-decoration: none;
+    color: orange;
+}
+
+.box-3 img {
+    height: 300px;
+}
+
+/*Write ups*/
+.paragraph-1 {
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+}
+
+.paragraph-1 h1 {
+    font-size: 60px;
+}
+
+/*Contact*/
+.paragraph-1 a {
+    color: orange;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+form {
+    width: 300px;
+    margin-left: 3px;
+}
+
+form label {
+    display: flex;
+    margin: 20px 0 4px 4px;
+    font-size: 14px;
+}
+
+form input {
+    color: white;
+    width: 200%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(27, 27, 27);
+}
+
+textarea {
+    color: white;
+    width: 200%;
+    height: 100px;
+    font-size: 14px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(27, 27, 27);
+}
+
+.submit {
+        width: 120px;
+        color: orange;
+        font-size: 17px;
+        padding: 14px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 10px;
+        background-color: rgb(27, 27, 27);
+}
+
+.submit:hover {
+    cursor: pointer;
+}

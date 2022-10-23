@@ -1,0 +1,75 @@
+ @media screen and (max-width: 768px) {
+   
+   /*nav*/
+      .toggle-button {
+        display: flex;
+    }
+
+    .navbar {
+        padding: 1.2em;
+    }
+
+    .menu {
+        display: none;
+        width: 100%;
+        text-align: center;
+        padding: 2px;
+        flex-direction: column;
+    }
+
+   menu a {
+     margin-left: 0;
+   }
+
+    .menu.active {
+        display: flex;
+    }
+   
+   /*Home*/
+   .paragraph {
+     flex-direction: column;
+   }
+
+   .scale-2 {
+     width: 100%;
+   }
+
+   .box-1 {
+    padding: 2em;
+}
+
+   .box-2 {
+    padding: 2em;
+}
+  /*About*/
+   .box-1-1 {
+     padding: 2em;
+   }
+
+   /*Work*/
+   .box-3 img {
+    height: 140px;
+}
+   .box-3 p {
+    font-size: 19px;
+    width: 100%;
+}
+   
+  /*Contact*/
+   form {
+    width: 140px;
+}
+
+   .submit {
+        width: 100px;
+        font-size: 14px;
+        padding: 12px;
+}
+   
+ }
+
+ @media screen and (max-width: 420px) {
+      textarea {
+     resize: vertical
+   }
+ }
